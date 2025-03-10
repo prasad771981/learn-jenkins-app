@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label "middleware-agent"}
 
     stages {
         stage('Hello') {
